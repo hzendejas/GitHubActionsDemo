@@ -27,3 +27,6 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!!!!"
+      - name: log-level
+        run: |
+          echo "Log level: ${{ inputs.logLevel }}"
