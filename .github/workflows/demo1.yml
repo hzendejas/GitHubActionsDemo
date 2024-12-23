@@ -25,7 +25,7 @@ jobs:
       fail-fast: false
       max-parallel: 3
       matrix:
-        os_version: [macos-latest, ubuntu-latest]
+        os_version: [windows-latest, ubuntu-latest]
         node_version: [12, 14, 16]
   
     name: My first job
